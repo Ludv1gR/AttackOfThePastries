@@ -3387,6 +3387,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 573730923}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &461848606 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 4720669326958766947, guid: 075543c2ccb5bac49b2247689022e8a8, type: 3}
+  m_PrefabInstance: {fileID: 141198371710728401}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &514541129
 GameObject:
   m_ObjectHideFlags: 0
@@ -4985,6 +4990,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1612326509089697142, guid: 075543c2ccb5bac49b2247689022e8a8, type: 3}
+      propertyPath: anim
+      value: 
+      objectReference: {fileID: 461848606}
     - target: {fileID: 4252996540053008115, guid: 075543c2ccb5bac49b2247689022e8a8, type: 3}
       propertyPath: m_Name
       value: EnemyTrooper

@@ -6,6 +6,7 @@ public class EnemyMovement : MonoBehaviour
 {
     [Header("References")]
     [SerializeField] private Rigidbody2D rb;
+    [SerializeField] private Animator anim;
 
     [Header("Attributes")]
     [SerializeField] private float moveSpeed = 2f;
@@ -29,6 +30,9 @@ public class EnemyMovement : MonoBehaviour
                 target = LevelManager.main.path[pathIndex];
             }
         }
+
+        anim.SetFloat("VerticalSpeed", rb.velocity.y);
+        anim.SetFloat("HorizontalSpeed", rb.velocity.x);
     }
 
     private void FixedUpdate() {
