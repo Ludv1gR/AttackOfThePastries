@@ -14,9 +14,9 @@ GameObject:
   - component: {fileID: 5761555239115636905}
   - component: {fileID: 4720669326958766947}
   - component: {fileID: 1612326509089697142}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: WhiteTrooper
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -74,8 +74,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -907592245
-  m_SortingLayer: 1
+  m_SortingLayerID: 343910025
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -2073019618, guid: 17099899ab38ef04e9070ebc698591ef, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
