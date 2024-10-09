@@ -8036,7 +8036,7 @@ GameObject:
   - component: {fileID: 444337696}
   - component: {fileID: 444337695}
   - component: {fileID: 444337694}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: MandelOrian
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8702,7 +8702,7 @@ GameObject:
   - component: {fileID: 912659187}
   - component: {fileID: 912659186}
   - component: {fileID: 912659185}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TartTrooper
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8808,7 +8808,7 @@ GameObject:
   - component: {fileID: 1012705994}
   - component: {fileID: 1012705993}
   - component: {fileID: 1012705992}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: CroissantCommando
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8914,7 +8914,7 @@ GameObject:
   - component: {fileID: 1037607005}
   - component: {fileID: 1037607004}
   - component: {fileID: 1037607003}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lukas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9267,7 +9267,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1247550474}
   - component: {fileID: 1247550473}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TatooineHouse2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
