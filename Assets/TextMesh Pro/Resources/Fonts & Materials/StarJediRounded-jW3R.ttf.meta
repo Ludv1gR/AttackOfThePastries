@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 141a2883dcd838f4b92bcc39890f7563
+guid: 66b5179ebc8856f40bd64f13859ea73f
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Star Jedi Hollow
+  - Star Jedi Rounded
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
