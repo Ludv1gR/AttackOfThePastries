@@ -10,11 +10,15 @@ public class TurretScript : MonoBehaviour
     [Header("References")]
     [SerializeField] private LayerMask enemyMask;
     [SerializeField] private Animator anim;
+    [SerializeField] private GameObject bulletPrefab;
+    //[SerializeField] private Transform firingPoint; skjut från mitten av transform.position :)
 
     [Header("Attribute")]
     [SerializeField] private float targetingRange = 3.2f;
+    [SerializeField] private float bps = 0.7f; // bullets per second
 
     private Transform target;
+    private float timeUntilFire;
 
     void Start()
     {
@@ -32,7 +36,21 @@ public class TurretScript : MonoBehaviour
 
         if (!CheckTargetIsInRange()) {
             target = null;
+        } else {
+            timeUntilFire += Time.deltaTime;
+
+            if(timeUntilFire >= 1f / bps) {
+                Shoot();
+                timeUntilFire = 0f;
+            }
         }
+    }
+
+    private void Shoot() {
+
+        GameObject bulletObj = Instantiate(bulletPrefab, transform.position, Quaternion.identity);
+        BulletScript bulletScript = bulletObj.GetComponent<BulletScript>();
+        bulletScript.SetTarget(target);
     }
 
     private void FindTarget() {
