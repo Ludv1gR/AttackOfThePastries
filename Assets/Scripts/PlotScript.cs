@@ -28,7 +28,7 @@ public class PlotScript : MonoBehaviour
     private void OnMouseDown() {
         if(tower != null) return;
 
-        GameObject towerToBuild = BuildManager.main.GetSelectedTower();
-         tower = Instantiate(towerToBuild, transform.position, Quaternion.identity);
+        Tower towerToBuild = BuildManager.main.GetSelectedTower();
+         tower = Instantiate(towerToBuild.towerPrefab, transform.position, Quaternion.identity);
     }
 }
