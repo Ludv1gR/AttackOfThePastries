@@ -188,7 +188,7 @@ SpriteRenderer:
   m_Size: {x: 2.56, y: 1.28}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &136336812
@@ -265,8 +265,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: credits
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 0cc8162a97736bf43838b2c23998c653, type: 2}
-  m_sharedMaterial: {fileID: 2093504370231450219, guid: 0cc8162a97736bf43838b2c23998c653, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 310688c1e0275f04c8b1767b5d2c6707, type: 2}
+  m_sharedMaterial: {fileID: -1672317437781362025, guid: 310688c1e0275f04c8b1767b5d2c6707, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -399,8 +399,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Play
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 0cc8162a97736bf43838b2c23998c653, type: 2}
-  m_sharedMaterial: {fileID: 2093504370231450219, guid: 0cc8162a97736bf43838b2c23998c653, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 310688c1e0275f04c8b1767b5d2c6707, type: 2}
+  m_sharedMaterial: {fileID: -1672317437781362025, guid: 310688c1e0275f04c8b1767b5d2c6707, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -917,8 +917,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Attack of The Pastries
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 0cc8162a97736bf43838b2c23998c653, type: 2}
-  m_sharedMaterial: {fileID: 2093504370231450219, guid: 0cc8162a97736bf43838b2c23998c653, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 310688c1e0275f04c8b1767b5d2c6707, type: 2}
+  m_sharedMaterial: {fileID: -1672317437781362025, guid: 310688c1e0275f04c8b1767b5d2c6707, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1261,8 +1261,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: quit
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 0cc8162a97736bf43838b2c23998c653, type: 2}
-  m_sharedMaterial: {fileID: 2093504370231450219, guid: 0cc8162a97736bf43838b2c23998c653, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 310688c1e0275f04c8b1767b5d2c6707, type: 2}
+  m_sharedMaterial: {fileID: -1672317437781362025, guid: 310688c1e0275f04c8b1767b5d2c6707, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1395,7 +1395,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: x
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 0cc8162a97736bf43838b2c23998c653, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 310688c1e0275f04c8b1767b5d2c6707, type: 2}
   m_sharedMaterial: {fileID: 2093504370231450219, guid: 0cc8162a97736bf43838b2c23998c653, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -1459,7 +1459,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1375868053
@@ -2008,7 +2008,7 @@ MonoBehaviour:
   m_text: "Game by \nfelix bergman\nviggo hildingsson\nLudvig Rasmuson\n\nassets
     by\nus\n\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 0cc8162a97736bf43838b2c23998c653, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 310688c1e0275f04c8b1767b5d2c6707, type: 2}
   m_sharedMaterial: {fileID: 2093504370231450219, guid: 0cc8162a97736bf43838b2c23998c653, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -2072,7 +2072,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &2089684922
