@@ -9,11 +9,11 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 3
-    m_ConditionEvent: TurretRotation
-    m_EventTreshold: -45
-  - m_ConditionMode: 4
-    m_ConditionEvent: TurretRotation
-    m_EventTreshold: 45
+    m_ConditionEvent: VerticalSpeed
+    m_EventTreshold: -0.5
+  - m_ConditionMode: 3
+    m_ConditionEvent: HorizontalSpeed
+    m_EventTreshold: 0.5
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 5330308579138983468}
   m_Solo: 0
@@ -36,12 +36,12 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 3
-    m_ConditionEvent: TurretRotation
-    m_EventTreshold: -135
   - m_ConditionMode: 4
-    m_ConditionEvent: TurretRotation
-    m_EventTreshold: -45
+    m_ConditionEvent: VerticalSpeed
+    m_EventTreshold: -0.5
+  - m_ConditionMode: 3
+    m_ConditionEvent: HorizontalSpeed
+    m_EventTreshold: -0.5
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -1715056930244440562}
   m_Solo: 0
@@ -65,11 +65,14 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 3
-    m_ConditionEvent: TurretRotation
-    m_EventTreshold: 45
+    m_ConditionEvent: VerticalSpeed
+    m_EventTreshold: 0.5
+  - m_ConditionMode: 3
+    m_ConditionEvent: HorizontalSpeed
+    m_EventTreshold: -0.5
   - m_ConditionMode: 4
-    m_ConditionEvent: TurretRotation
-    m_EventTreshold: 135
+    m_ConditionEvent: HorizontalSpeed
+    m_EventTreshold: 0.5
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 216188026960844861}
   m_Solo: 0
@@ -93,11 +96,14 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 3
-    m_ConditionEvent: TurretRotation
-    m_EventTreshold: 135
+    m_ConditionEvent: VerticalSpeed
+    m_EventTreshold: -0.5
   - m_ConditionMode: 4
-    m_ConditionEvent: TurretRotation
-    m_EventTreshold: -135
+    m_ConditionEvent: VerticalSpeed
+    m_EventTreshold: 0.5
+  - m_ConditionMode: 4
+    m_ConditionEvent: HorizontalSpeed
+    m_EventTreshold: -0.5
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 6313759532776738189}
   m_Solo: 0
@@ -180,12 +186,15 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 3
-    m_ConditionEvent: TurretRotation
-    m_EventTreshold: -135
   - m_ConditionMode: 4
-    m_ConditionEvent: TurretRotation
-    m_EventTreshold: -45
+    m_ConditionEvent: VerticalSpeed
+    m_EventTreshold: -0.5
+  - m_ConditionMode: 3
+    m_ConditionEvent: HorizontalSpeed
+    m_EventTreshold: -0.5
+  - m_ConditionMode: 4
+    m_ConditionEvent: HorizontalSpeed
+    m_EventTreshold: 0.5
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -1715056930244440562}
   m_Solo: 0
@@ -209,7 +218,13 @@ AnimatorController:
   m_Name: DarkTrooper
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: TurretRotation
+  - m_Name: VerticalSpeed
+    m_Type: 1
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 9100000}
+  - m_Name: HorizontalSpeed
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -237,11 +252,11 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 3
-    m_ConditionEvent: TurretRotation
-    m_EventTreshold: 135
+    m_ConditionEvent: VerticalSpeed
+    m_EventTreshold: -0.5
   - m_ConditionMode: 4
-    m_ConditionEvent: TurretRotation
-    m_EventTreshold: -135
+    m_ConditionEvent: HorizontalSpeed
+    m_EventTreshold: -0.5
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 6313759532776738189}
   m_Solo: 0
@@ -294,11 +309,11 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 3
-    m_ConditionEvent: TurretRotation
-    m_EventTreshold: 45
-  - m_ConditionMode: 4
-    m_ConditionEvent: TurretRotation
-    m_EventTreshold: 135
+    m_ConditionEvent: VerticalSpeed
+    m_EventTreshold: 0.5
+  - m_ConditionMode: 3
+    m_ConditionEvent: HorizontalSpeed
+    m_EventTreshold: -0.5
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 216188026960844861}
   m_Solo: 0
@@ -322,11 +337,14 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 3
-    m_ConditionEvent: TurretRotation
-    m_EventTreshold: -45
+    m_ConditionEvent: VerticalSpeed
+    m_EventTreshold: -0.5
   - m_ConditionMode: 4
-    m_ConditionEvent: TurretRotation
-    m_EventTreshold: 45
+    m_ConditionEvent: VerticalSpeed
+    m_EventTreshold: 0.5
+  - m_ConditionMode: 3
+    m_ConditionEvent: HorizontalSpeed
+    m_EventTreshold: 0.5
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 5330308579138983468}
   m_Solo: 0
@@ -349,12 +367,12 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 3
-    m_ConditionEvent: TurretRotation
-    m_EventTreshold: -135
   - m_ConditionMode: 4
-    m_ConditionEvent: TurretRotation
-    m_EventTreshold: -45
+    m_ConditionEvent: VerticalSpeed
+    m_EventTreshold: -0.5
+  - m_ConditionMode: 4
+    m_ConditionEvent: HorizontalSpeed
+    m_EventTreshold: 0.5
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -1715056930244440562}
   m_Solo: 0
@@ -377,12 +395,12 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 3
-    m_ConditionEvent: TurretRotation
-    m_EventTreshold: 135
   - m_ConditionMode: 4
-    m_ConditionEvent: TurretRotation
-    m_EventTreshold: -135
+    m_ConditionEvent: VerticalSpeed
+    m_EventTreshold: 0.5
+  - m_ConditionMode: 4
+    m_ConditionEvent: HorizontalSpeed
+    m_EventTreshold: -0.5
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 6313759532776738189}
   m_Solo: 0
@@ -463,12 +481,12 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 3
-    m_ConditionEvent: TurretRotation
-    m_EventTreshold: -45
   - m_ConditionMode: 4
-    m_ConditionEvent: TurretRotation
-    m_EventTreshold: 45
+    m_ConditionEvent: VerticalSpeed
+    m_EventTreshold: 0.5
+  - m_ConditionMode: 3
+    m_ConditionEvent: HorizontalSpeed
+    m_EventTreshold: 0.5
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 5330308579138983468}
   m_Solo: 0
@@ -492,11 +510,11 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 3
-    m_ConditionEvent: TurretRotation
-    m_EventTreshold: 45
+    m_ConditionEvent: VerticalSpeed
+    m_EventTreshold: 0.5
   - m_ConditionMode: 4
-    m_ConditionEvent: TurretRotation
-    m_EventTreshold: 135
+    m_ConditionEvent: HorizontalSpeed
+    m_EventTreshold: 0.5
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 216188026960844861}
   m_Solo: 0
