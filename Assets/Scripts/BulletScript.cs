@@ -12,6 +12,8 @@ public class BulletScript : MonoBehaviour
     [SerializeField] private int bulletDamage = 1;
 
     private Transform target;
+    private float bulletMaxTravel = 7f;
+    private float bulletTravel = 0f;
 
     
     public void SetTarget(Transform _target) {
@@ -20,6 +22,12 @@ public class BulletScript : MonoBehaviour
 
     
     private void FixedUpdate() {
+        bulletTravel += Time.deltaTime;
+
+        if(bulletTravel >= bulletMaxTravel) {
+            Destroy(gameObject);
+        }
+
         if(!target) return;
 
         Vector2 direction = (target.position - transform.position).normalized;
