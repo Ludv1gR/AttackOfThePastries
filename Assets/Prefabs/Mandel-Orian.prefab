@@ -29,7 +29,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -5.45, y: 1.99, z: 0}
-  m_LocalScale: {x: 3, y: 3, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -124,5 +124,5 @@ MonoBehaviour:
     m_Bits: 512
   anim: {fileID: 1310872435710705552}
   bulletPrefab: {fileID: 6544389346557885617, guid: 213675e92798df24ea282ab63693b133, type: 3}
-  targetingRange: 3.2
-  bps: 0.7
+  targetingRange: 5
+  bps: 2
