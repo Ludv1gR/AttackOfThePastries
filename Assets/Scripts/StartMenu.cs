@@ -17,6 +17,11 @@ public class StartMenu : MonoBehaviour
         Application.Quit();
     }
 
+    public void BackToMenu()
+    {
+        SceneManager.LoadScene(0);
+    }
+
     public void ShowCredits()
     {
         creditsPanel.SetActive(true);

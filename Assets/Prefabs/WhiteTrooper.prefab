@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 5761555239115636905}
   - component: {fileID: 4720669326958766947}
   - component: {fileID: 1612326509089697142}
+  - component: {fileID: 8280141964806744993}
   m_Layer: 9
   m_Name: WhiteTrooper
   m_TagString: Enemy
@@ -98,7 +99,7 @@ Rigidbody2D:
   m_GameObject: {fileID: 4252996540053008115}
   m_BodyType: 1
   m_Simulated: 1
-  m_UseFullKinematicContacts: 0
+  m_UseFullKinematicContacts: 1
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
@@ -113,7 +114,7 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!58 &5761555239115636905
 CircleCollider2D:
@@ -186,3 +187,15 @@ MonoBehaviour:
   rb: {fileID: 3606724196038577532}
   anim: {fileID: 4720669326958766947}
   moveSpeed: 2
+--- !u!114 &8280141964806744993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4252996540053008115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c40d97288b7eb4941a2c5d7988f66ca3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
