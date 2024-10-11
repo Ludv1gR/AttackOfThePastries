@@ -10,10 +10,12 @@ public class HealthScript : MonoBehaviour
 
     private bool isDestroyed = false;
     private Animator animator;
+    private AudioSource audioSource;
 
     private void Start()
     {
         animator = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     public void TakeDamage(int dmg)
@@ -24,10 +26,15 @@ public class HealthScript : MonoBehaviour
         {
             isDestroyed = true;
 
-            // Trigger the coffee explosion animation
             animator.SetTrigger("Explode");
 
+            if (audioSource != null)
+            {
+                audioSource.Play();
+            }
+
             StartCoroutine(DestroyAfterAnimation());
+
             EnemySpawner.onEnemyDestroy.Invoke();
             LevelManager.main.IncreaseCurrency(currencyDrop);
         }

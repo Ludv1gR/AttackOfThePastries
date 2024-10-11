@@ -124,5 +124,7 @@ MonoBehaviour:
     m_Bits: 512
   anim: {fileID: 1310872435710705552}
   bulletPrefab: {fileID: 6544389346557885617, guid: 213675e92798df24ea282ab63693b133, type: 3}
+  placementSound: {fileID: 8300000, guid: af18e134edb567940bf710717d991e4c, type: 3}
+  shootSound: {fileID: 8300000, guid: 8fd3ee2c2c6e4714083905c577ccada7, type: 3}
   targetingRange: 5
   bps: 2
