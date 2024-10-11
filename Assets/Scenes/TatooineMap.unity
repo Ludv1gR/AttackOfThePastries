@@ -10222,7 +10222,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Croissant Commando
+  m_text: Croissant Commando - 200
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0a4dcb3804feec9458457bb12b6115a1, type: 2}
   m_sharedMaterial: {fileID: 1968512409053398583, guid: 0a4dcb3804feec9458457bb12b6115a1, type: 2}
@@ -10249,8 +10249,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 15
-  m_fontSizeBase: 15
+  m_fontSize: 11.5
+  m_fontSizeBase: 11.5
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -10356,7 +10356,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Mandel-orian
+  m_text: Mandel-orian - 1000
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0a4dcb3804feec9458457bb12b6115a1, type: 2}
   m_sharedMaterial: {fileID: 1968512409053398583, guid: 0a4dcb3804feec9458457bb12b6115a1, type: 2}
@@ -10383,8 +10383,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 22
-  m_fontSizeBase: 22
+  m_fontSize: 15
+  m_fontSizeBase: 15
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -19519,7 +19519,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Tart Trooper
+  m_text: Tart Trooper - 100
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0a4dcb3804feec9458457bb12b6115a1, type: 2}
   m_sharedMaterial: {fileID: 1968512409053398583, guid: 0a4dcb3804feec9458457bb12b6115a1, type: 2}
@@ -19546,8 +19546,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 22
-  m_fontSizeBase: 22
+  m_fontSize: 16
+  m_fontSizeBase: 16
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
