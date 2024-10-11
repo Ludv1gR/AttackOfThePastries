@@ -9876,8 +9876,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 0
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 310688c1e0275f04c8b1767b5d2c6707, type: 2}
-  m_sharedMaterial: {fileID: -1672317437781362025, guid: 310688c1e0275f04c8b1767b5d2c6707, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0a4dcb3804feec9458457bb12b6115a1, type: 2}
+  m_sharedMaterial: {fileID: 1968512409053398583, guid: 0a4dcb3804feec9458457bb12b6115a1, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -10178,8 +10178,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Croissant Commando
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 310688c1e0275f04c8b1767b5d2c6707, type: 2}
-  m_sharedMaterial: {fileID: -1672317437781362025, guid: 310688c1e0275f04c8b1767b5d2c6707, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0a4dcb3804feec9458457bb12b6115a1, type: 2}
+  m_sharedMaterial: {fileID: 1968512409053398583, guid: 0a4dcb3804feec9458457bb12b6115a1, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -10418,8 +10418,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Mandel-orian
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 310688c1e0275f04c8b1767b5d2c6707, type: 2}
-  m_sharedMaterial: {fileID: -1672317437781362025, guid: 310688c1e0275f04c8b1767b5d2c6707, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0a4dcb3804feec9458457bb12b6115a1, type: 2}
+  m_sharedMaterial: {fileID: 1968512409053398583, guid: 0a4dcb3804feec9458457bb12b6115a1, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -11383,8 +11383,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Shop
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 310688c1e0275f04c8b1767b5d2c6707, type: 2}
-  m_sharedMaterial: {fileID: -1672317437781362025, guid: 310688c1e0275f04c8b1767b5d2c6707, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0a4dcb3804feec9458457bb12b6115a1, type: 2}
+  m_sharedMaterial: {fileID: 1968512409053398583, guid: 0a4dcb3804feec9458457bb12b6115a1, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -11645,8 +11645,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Shop
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 310688c1e0275f04c8b1767b5d2c6707, type: 2}
-  m_sharedMaterial: {fileID: -1672317437781362025, guid: 310688c1e0275f04c8b1767b5d2c6707, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0a4dcb3804feec9458457bb12b6115a1, type: 2}
+  m_sharedMaterial: {fileID: 1968512409053398583, guid: 0a4dcb3804feec9458457bb12b6115a1, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -18313,8 +18313,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Tart Trooper
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 310688c1e0275f04c8b1767b5d2c6707, type: 2}
-  m_sharedMaterial: {fileID: -1672317437781362025, guid: 310688c1e0275f04c8b1767b5d2c6707, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0a4dcb3804feec9458457bb12b6115a1, type: 2}
+  m_sharedMaterial: {fileID: 1968512409053398583, guid: 0a4dcb3804feec9458457bb12b6115a1, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
