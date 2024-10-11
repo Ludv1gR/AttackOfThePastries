@@ -9,16 +9,34 @@ public class HealthScript : MonoBehaviour
     [SerializeField] private int currencyDrop = 30;
 
     private bool isDestroyed = false;
+    private Animator animator;
 
-    public void TakeDamage(int dmg) {
+    private void Start()
+    {
+        animator = GetComponent<Animator>();
+    }
+
+    public void TakeDamage(int dmg)
+    {
         hitPoints -= dmg;
 
-        if(hitPoints <= 0 && !isDestroyed) {
+        if (hitPoints <= 0 && !isDestroyed)
+        {
+            isDestroyed = true;
+
+            // Trigger the coffee explosion animation
+            animator.SetTrigger("Explode");
+
+            StartCoroutine(DestroyAfterAnimation());
             EnemySpawner.onEnemyDestroy.Invoke();
             LevelManager.main.IncreaseCurrency(currencyDrop);
-            isDestroyed = true;
-            Destroy(gameObject);
         }
     }
 
+    private IEnumerator DestroyAfterAnimation()
+    {
+        yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length);
+
+        Destroy(gameObject);
+    }
 }

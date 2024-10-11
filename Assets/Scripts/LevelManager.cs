@@ -35,7 +35,7 @@ public class LevelManager : MonoBehaviour
     }
 
     private void Start() {
-        currency = 100;
+        currency = 150;
         playerHealth = 5; // TODO: 10
 
         if (startFadedOut) alpha = 1f; else alpha = 0f;
